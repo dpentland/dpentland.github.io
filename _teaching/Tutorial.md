@@ -2,7 +2,7 @@
 title: "Summer Tutorial: Groups and Trees"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
+permalink: /teaching/tutorial
 venue: "Harvard"
 date: 2023-06-12
 location: "Cambridge, USA"
