@@ -1,15 +1,13 @@
 ---
-title: "Paper Title Number 2"
+title: "Computing L-Polynomials of Picard curves from Cartier-Manin matrices"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
+permalink: /publication/2022-picard
+excerpt: 'This paper gives a fast and practical algorithm to compute L-polynomials of generic Picard curves over Q for all primes p of good reduction up to some integer N. We prove an interesting theoretical result to achieve this: for all but a density zero subset of primes, we can either compute the L-polynomial from the Cartier-Manin matrix or from this matrix and the splitting behavior of f and a polynomial psi_f in Q[x] related to the 2-torsion of the Jacobian. These show that surprisingly little work is needed to compute the L-polynomial at p from the L polynomial modulo p (which is found by the Cartier-Manin matrix).'
+date: 2022-10-01
+venue: 'Mathematics of Computation'
 paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+citation: 'Asif, Sualeh, Francesc Fité, and Dylan Pentland. "Computing 𝐿-polynomials of Picard curves from Cartier–Manin matrices." Mathematics of Computation 91.334 (2022): 943-971.'
 ---
-This paper is about the number 2. The number 3 is left for future work.
+This paper gives a fast and practical algorithm to compute L-polynomials of generic Picard curves over Q for all primes p of good reduction up to some integer N. We prove an interesting theoretical result to achieve this: for all but a density zero subset of primes, we can either compute the L-polynomial from the Cartier-Manin matrix or from this matrix and the splitting behavior of f and a polynomial psi_f in Q[x] related to the 2-torsion of the Jacobian. These show that surprisingly little work is needed to compute the L-polynomial at p from the L polynomial modulo p (which is found by the Cartier-Manin matrix).
 
 [Download paper here](http://academicpages.github.io/files/paper2.pdf)
-
-Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).
