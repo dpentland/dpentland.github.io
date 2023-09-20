@@ -1,20 +1,13 @@
 ---
-title: "Teaching experience 1"
+title: "Summer Tutorial: Groups and Trees"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+venue: "Harvard"
+date: 2023-06-12
+location: "Cambridge, USA"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+In Summer 2023, I taught a course on Bass-Serre theory. The majority of the course followed Serre's book "Trees", with the end going into the construction of Ramanujan graphs from the Bruhat-Tits tree of SL2.
 
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+The notes can be viewed (coming soon)
