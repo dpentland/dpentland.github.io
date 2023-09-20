@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+More detailed CV (here).
+
 Education
 ======
 * B.S. in Mathematics, MIT, 2022
