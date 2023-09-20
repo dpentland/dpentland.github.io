@@ -3,7 +3,7 @@ title: "Filtrations on block subalgebras of reduced enveloping algebras"
 collection: publications
 permalink: /publication/2015-10-01-paper-title-number-3
 excerpt: 'We study several natural filtrations related to the PBW filtration of block subalgebra of restricted universal enveloping algebras. In the case of SL2, we answer completely what the associated graded is (for the most interesting case of chi=0) using the Frobenius neighborhood of 0 in the nilpotent cone. We also prove some general results regarding this method, but don't make a complete computation in cases besides SL2.'
-date: 2022
+date: 2022-10-01
 venue: 'Journal of Algebra and its Applications'
 paperurl: 'http://academicpages.github.io/files/paper3.pdf'
 citation: 'Ionov, Andrei, and Dylan Pentland. "Filtrations on block subalgebras of reduced enveloping algebras." Journal of Algebra and Its Applications 21.12 (2022): 2350001.'
