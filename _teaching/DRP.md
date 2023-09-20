@@ -4,7 +4,6 @@ collection: teaching
 type: "Directed reading"
 permalink: /teaching/DRP
 venue: "Harvard"
-date: "2023"
 location: "Cambridge, USA"
 ---
 
