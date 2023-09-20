@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : " "
+title                    : "About"
 title_separator          : "-"
 name                     : &name "Dylan Pentland"
 description              : &description "personal description"
