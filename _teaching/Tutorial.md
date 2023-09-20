@@ -10,4 +10,4 @@ location: "Cambridge, USA"
 
 In Summer 2023, I taught a course on Bass-Serre theory. The majority of the course followed Serre's book "Trees", with the end going into the construction of Ramanujan graphs from the Bruhat-Tits tree of SL2.
 
-The notes can be viewed (coming soon)
+The notes can be viewed [here](http://dpentland.github.io/files/Summer_Tutorial_Final.pdf)
