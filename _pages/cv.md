@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-More detailed CV (here).
+More detailed CV [here](https://dpentland.github.io/files/Pentland_CV.pdf).
 
 Education
 ======
