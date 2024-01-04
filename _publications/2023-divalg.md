@@ -1,5 +1,5 @@
 ---
-title: "Computing L-Polynomials of Picard curves from Cartier-Manin matrices"
+title: "Extensions of mod p representations of division algebras over non-Archimedean local fields"
 collection: publications
 permalink: /publication/2023-divalg
 excerpt: '(With **Andrew Keisling**) This paper computes the Ext^1 groups of arbitrary smooth irreducible mod p representations of division algebras over a non-Archimedean local field of residue characteristic p (with mild assumptions on p). We also give partial results for higher extensions.'
