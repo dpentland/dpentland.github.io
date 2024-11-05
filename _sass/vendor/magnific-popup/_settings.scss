@@ -16,11 +16,11 @@ $mfp-z-index-base:                    1040;                       // Base z-inde
 // controls
 $mfp-include-arrows:                  true;                       // Include styles for nav arrows
 $mfp-controls-opacity:                1;                          // Opacity of controls
-$mfp-controls-color:                  #fff;                     // Color of controls
-$mfp-controls-border-color:           #fff;                     // Border color of controls
-$mfp-inner-close-icon-color:          #fff;                     // Color of close button when inside
-$mfp-controls-text-color:             #ccc;                       // Color of preloader and "1 of X" indicator
-$mfp-controls-text-color-hover:       #fff;                     // Hover color of preloader and "1 of X" indicator
+$mfp-controls-color:                  #000;                     // Color of controls
+$mfp-controls-border-color:           #000;                     // Border color of controls
+$mfp-inner-close-icon-color:          #000;                     // Color of close button when inside
+$mfp-controls-text-color:             rgb(55, 55, 55);                       // Color of preloader and "1 of X" indicator
+$mfp-controls-text-color-hover:       #000;                     // Hover color of preloader and "1 of X" indicator
 $mfp-IE7support:                      true;                       // Very basic IE7 support
 
 // Iframe-type options
@@ -38,8 +38,8 @@ $mfp-image-padding-bottom:            40px;                       // Image paddi
 $mfp-include-mobile-layout-for-image: true;                       // Removes paddings from top and bottom
 
 // Image caption options
-$mfp-caption-title-color:             #f3f3f3;                    // Caption title color
-$mfp-caption-subtitle-color:          #bdbdbd;                    // Caption subtitle color
+$mfp-caption-title-color:             #151515;                    // Caption title color
+$mfp-caption-subtitle-color:          #393939;                    // Caption subtitle color
 .mfp-counter { font-family: $serif; }                          // Caption font family
 
 // A11y
