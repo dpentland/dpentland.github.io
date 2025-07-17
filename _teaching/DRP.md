@@ -4,8 +4,8 @@ collection: teaching
 type: "Directed reading"
 permalink: /teaching/DRP
 venue: "Harvard"
-date: 2023-01-01
+date: 2025-01-01
 location: "Cambridge, USA"
 ---
 
-In Spring 2023, I mentored a DRP project in etale cohomology, building up to computing the l-adic cohomology of a curve. In Fall 2023, I am mentoring a DRP project on p-adic Hodge theory.
+I have mentored undergraduates each semester since Spring 2023 on including etale cohomology, p-adic Hodge theory, rational points on ellptic curves, and group theory.
