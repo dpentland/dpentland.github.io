@@ -2185,6 +2185,31 @@ button,
     #banner .image {
       max-height: 35vh; } }
 
+.profile-headshot {
+  max-width: 16rem;
+  min-width: 10rem;
+  width: 25%; }
+  .profile-headshot img {
+    height: auto;
+    width: 100%; }
+  @media screen and (max-width: 736px) {
+    .profile-headshot {
+      display: block;
+      float: none;
+      margin: 0 0 2em 0;
+      padding: 0;
+      top: 0; } }
+
+.section-hint {
+  font-size: 0.9em;
+  font-style: italic;
+  margin-top: -1em; }
+
+.talk-list {
+  margin: 0 0 2em 0; }
+  .talk-list li {
+    margin: 0 0 0.85em 0; }
+
 /* Footer */
 #footer .copyright {
   color: #9fa3a6;

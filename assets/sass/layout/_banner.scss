@@ -6,9 +6,9 @@
 
 /* Banner */
 
-	#banner {
-		@include padding(6em, 0);
-		@include vendor('display', 'flex');
+		#banner {
+			@include padding(6em, 0);
+			@include vendor('display', 'flex');
 
 		h1 {
 			margin-top: -0.125em;
@@ -66,10 +66,43 @@
 				width: 100%;
 			}
 
-			@include breakpoint('<=xsmall') {
-				.image {
-					max-height: 35vh;
+				@include breakpoint('<=xsmall') {
+					.image {
+						max-height: 35vh;
+					}
 				}
 			}
 		}
+
+.profile-headshot {
+	max-width: 16rem;
+	min-width: 10rem;
+	width: 25%;
+
+	img {
+		height: auto;
+		width: 100%;
 	}
+
+	@include breakpoint('<=small') {
+		display: block;
+		float: none;
+		margin: 0 0 _size(element-margin) 0;
+		padding: 0;
+		top: 0;
+	}
+}
+
+.section-hint {
+	font-size: 0.9em;
+	font-style: italic;
+	margin-top: -1em;
+}
+
+.talk-list {
+	margin: 0 0 _size(element-margin) 0;
+
+	li {
+		margin: 0 0 0.85em 0;
+	}
+}
