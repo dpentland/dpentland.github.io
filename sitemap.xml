@@ -2,47 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://dpentland.github.io/</loc>
+    <lastmod>2026-03-16</lastmod>
   </url>
   <url>
     <loc>https://dpentland.github.io/cv.pdf</loc>
+    <lastmod>2026-01-05</lastmod>
   </url>
   <url>
     <loc>https://dpentland.github.io/files/Klein_quartic.pdf</loc>
+    <lastmod>2026-02-27</lastmod>
   </url>
   <url>
     <loc>https://dpentland.github.io/files/Derivedprismatic.pdf</loc>
+    <lastmod>2026-02-27</lastmod>
   </url>
   <url>
     <loc>https://dpentland.github.io/files/F_gauge.pdf</loc>
+    <lastmod>2026-02-27</lastmod>
   </url>
   <url>
     <loc>https://dpentland.github.io/files/farguesfontaine.pdf</loc>
+    <lastmod>2026-02-27</lastmod>
+  </url>
+  <url>
+    <loc>https://dpentland.github.io/files/arc.pdf</loc>
+    <lastmod>2026-02-27</lastmod>
   </url>
   <url>
     <loc>https://dpentland.github.io/files/proet.pdf</loc>
+    <lastmod>2024-02-28</lastmod>
   </url>
   <url>
     <loc>https://dpentland.github.io/files/Non_abelian_Hodge.pdf</loc>
+    <lastmod>2023-09-19</lastmod>
   </url>
   <url>
     <loc>https://dpentland.github.io/files/beilinson_fiber.pdf</loc>
+    <lastmod>2026-02-27</lastmod>
   </url>
   <url>
     <loc>https://dpentland.github.io/files/Nearby_Cycles.pdf</loc>
+    <lastmod>2023-09-19</lastmod>
   </url>
   <url>
     <loc>https://dpentland.github.io/files/shtuka.pdf</loc>
+    <lastmod>2024-01-04</lastmod>
   </url>
   <url>
     <loc>https://dpentland.github.io/files/hondatate.pdf</loc>
+    <lastmod>2026-02-27</lastmod>
   </url>
   <url>
     <loc>https://dpentland.github.io/files/twistor.pdf</loc>
+    <lastmod>2023-10-31</lastmod>
   </url>
   <url>
     <loc>https://dpentland.github.io/files/almost_purity.pdf</loc>
+    <lastmod>2026-02-27</lastmod>
   </url>
   <url>
     <loc>https://dpentland.github.io/files/Summer_Tutorial_Final.pdf</loc>
+    <lastmod>2023-09-19</lastmod>
   </url>
 </urlset>

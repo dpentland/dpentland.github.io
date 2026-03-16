@@ -39,14 +39,40 @@
 			<script type="application/ld+json">
 			{
 			  "@context": "https://schema.org",
-			  "@type": "WebSite",
-			  "name": "Dylan Pentland",
-			  "url": "https://dpentland.github.io/"
+			  "@graph": [
+			    {
+			      "@type": "WebSite",
+			      "@id": "https://dpentland.github.io/#website",
+			      "name": "Dylan Pentland",
+			      "url": "https://dpentland.github.io/",
+			      "publisher": {
+			        "@id": "https://dpentland.github.io/#person"
+			      }
+			    },
+			    {
+			      "@type": "Person",
+			      "@id": "https://dpentland.github.io/#person",
+			      "name": "Dylan Pentland",
+			      "url": "https://dpentland.github.io/",
+			      "image": "https://dpentland.github.io/dylan.jpeg",
+			      "description": "Harvard mathematics PhD student working in p-adic Hodge theory.",
+			      "jobTitle": "Mathematics PhD student",
+			      "mainEntityOfPage": "https://dpentland.github.io/",
+			      "affiliation": {
+			        "@type": "CollegeOrUniversity",
+			        "name": "Harvard University",
+			        "sameAs": "https://www.harvard.edu/"
+			      },
+			      "knowsAbout": [
+			        "p-adic Hodge theory"
+			      ]
+			    }
+			  ]
 			}
 			</script>
 		</head>
 
-	<body class="is-preload">
+		<body>
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -82,88 +108,74 @@
 										</header>
 										<p class="section-hint">Click ▶ to expand</p>
 
-									<details>
-										<summary>
-									  <b>Syntomification and crystalline local systems </b>
-									  <a href="https://arxiv.org/abs/2510.16961"> [arXiv]</a>
-										</summary>
-										I show that the category of crystalline Z_p-local systems is equivalent to a category of reflexive F-gauges, which resolves a conjecture of Bhatt. Prior to this, the question was partially answered by Guo-Li, who gave a way to lift analytic prismatic F-crystals to F-gauges. One can define a canonical t-structure on perfect complexes on the syntomification for smooth X, and characterize the output of Guo-Li's construction as the reflexive objects in the heart of this t-structure. Rationally this implies Coh(X^Syn)[1/p] is equivalent to crystalline Qp-local systems, and we use this integral result to produce a derived variant of this result. Namely, we show that Perf(X^{Syn})[1/p] is equivalent to a category of admissible filtered F-isocrystals -- morally one can think of this as a derived category of crystalline local systems, although this is generally not the case unless X=O_K. The integral underived result allows us to show essential surjectivity easily, while the harder component of full faithfulness comes from a variant of the Beilinson fiber square with coefficients for smooth proper formal schemes over O_K.
-										<br>
-									  </details>
-									<br>
+										<details>
+											<summary>
+										  <b>Syntomification and crystalline local systems </b>
+										  <a href="https://arxiv.org/abs/2510.16961"> [arXiv]</a>
+											</summary>
+											I show that the category of crystalline Z_p-local systems is equivalent to a category of reflexive F-gauges, which resolves a conjecture of Bhatt. Prior to this, the question was partially answered by Guo-Li, who gave a way to lift analytic prismatic F-crystals to F-gauges. One can define a canonical t-structure on perfect complexes on the syntomification for smooth X, and characterize the output of Guo-Li's construction as the reflexive objects in the heart of this t-structure. Rationally this implies Coh(X^Syn)[1/p] is equivalent to crystalline Qp-local systems, and we use this integral result to produce a derived variant of this result. Namely, we show that Perf(X^{Syn})[1/p] is equivalent to a category of admissible filtered F-isocrystals -- morally one can think of this as a derived category of crystalline local systems, although this is generally not the case unless X=O_K. The integral underived result allows us to show essential surjectivity easily, while the harder component of full faithfulness comes from a variant of the Beilinson fiber square with coefficients for smooth proper formal schemes over O_K.
+										  </details>
 
-									<details>
-										<summary>
-									  <b>Extensions of mod p representations of local division algebras</b>
+										<details>
+											<summary>
+										  <b>Extensions of mod p representations of local division algebras</b>
 											with <a href="https://sites.google.com/berkeley.edu/keisling">Drew Keisling.</a>
-										<a href="https://jtnb.centre-mersenne.org/item/10.5802/jtnb.1273.pdf">
-										[JNTB]</a><a href="https://arxiv.org/pdf/2110.00705"> [arXiv]</a>
-										</summary>
-										Determines the extension groups of smooth irreducible representations of a division algebra D over a non-Archimedean local field.
-										<br>
-									  </details>
-									<br>
+											<a href="https://jtnb.centre-mersenne.org/item/10.5802/jtnb.1273.pdf">
+											[JNTB]</a><a href="https://arxiv.org/pdf/2110.00705"> [arXiv]</a>
+											</summary>
+											Determines the extension groups of smooth irreducible representations of a division algebra D over a non-Archimedean local field.
+										  </details>
 
-									<details>
-										<summary>
-									  <b>Filtrations on block subalgebras of restricted universal enveloping algebras</b>
+										<details>
+											<summary>
+										  <b>Filtrations on block subalgebras of restricted universal enveloping algebras</b>
 											with Andrei Ionov.
-									   <a href="https://www.worldscientific.com/doi/10.1142/S0219498823500019">
-											[Journal of Algebra and its Applications]</a><a href="https://arxiv.org/abs/2009.07477"> [arXiv]</a>
-										</summary>
-										Studies the associated graded algebras for the PBW filtration and related filtrations on blocks of restricted universal enveloping algebras. 
-										<br>
-									</details>
-									<br>
-
-									<details>
-										<summary>
-									  <b>Computing L-polynomials of Picard curves in polylogarithmic time</b>
-											with <a href="https://www.sualehasif.me/">Sualeh Asif</a> and <a href="https://www.ub.edu/nt/ffite/">Francesc Fit&eacute;</a>.
-									   <a href="https://www.ams.org/journals/mcom/2022-91-334/S0025-5718-2021-03675-3/home.html">
-											[Mathematics of Computation]</a><a href="https://arxiv.org/pdf/2010.07247"> [arXiv]</a>
-										</summary>
-										Develops and implements a practical algorithm to compute the zeta function of a curve in genus >2.
-										<br>
-									</details>
-									<br>
-
-									<details>
-										<summary>
-									  <b>Coefficients of Gaussian Polynomials Modulo N</b>
-									   <a href="https://www.combinatorics.org/ojs/index.php/eljc/article/view/V27i2p58">
-											[EJC]</a><a href="https://arxiv.org/abs/1801.00188"> [arXiv]</a>
-										</summary>
-										Resolves and extends a conjecture of Prof. Richard Stanley on periods of coefficients in q-binomial coefficients modulo N.
-										<br>
+										   <a href="https://www.worldscientific.com/doi/10.1142/S0219498823500019">
+												[Journal of Algebra and its Applications]</a><a href="https://arxiv.org/abs/2009.07477"> [arXiv]</a>
+											</summary>
+											Studies the associated graded algebras for the PBW filtration and related filtrations on blocks of restricted universal enveloping algebras. 
 										</details>
-										<br>
-										
-									</section>
+
+										<details>
+											<summary>
+										  <b>Computing L-polynomials of Picard curves in polylogarithmic time</b>
+											with <a href="https://www.sualehasif.me/">Sualeh Asif</a> and <a href="https://www.ub.edu/nt/ffite/">Francesc Fit&eacute;</a>.
+										   <a href="https://www.ams.org/journals/mcom/2022-91-334/S0025-5718-2021-03675-3/home.html">
+												[Mathematics of Computation]</a><a href="https://arxiv.org/pdf/2010.07247"> [arXiv]</a>
+											</summary>
+											Develops and implements a practical algorithm to compute the zeta function of a curve in genus >2.
+										</details>
+
+										<details>
+											<summary>
+										  <b>Coefficients of Gaussian Polynomials Modulo N</b>
+										   <a href="https://www.combinatorics.org/ojs/index.php/eljc/article/view/V27i2p58">
+												[EJC]</a><a href="https://arxiv.org/abs/1801.00188"> [arXiv]</a>
+											</summary>
+											Resolves and extends a conjecture of Prof. Richard Stanley on periods of coefficients in q-binomial coefficients modulo N.
+											</details>
+											
+										</section>
 
 									<section>
 										<header class="major">
 											<h2 id="PROBLEMS">Problems I am thinking about</h2>
 										</header>
 
-									<details>
-										<summary>
-									  <b>Torsion crystalline representations (In progress)</b>
-										</summary>
-										<br>
-										A smaller follow-up project to ``Syntomification and crystalline local systems": I aim to integrally characterize the essential image of T_et on Perf(X^{Syn}) as a category of crystalline objects in D^b_lisse(X_eta,Z_p) roughly built out of torsion crystalline local systems and crystalline Z_p-local systems. Optimistically, one can turn this into an equivalence with appropriate modifications.
-									  </details>
-									<br>
+										<details>
+											<summary>
+										  <b>Torsion crystalline representations (In progress)</b>
+											</summary>
+											A smaller follow-up project to ``Syntomification and crystalline local systems": I aim to integrally characterize the essential image of T_et on Perf(X^{Syn}) as a category of crystalline objects in D^b_lisse(X_eta,Z_p) roughly built out of torsion crystalline local systems and crystalline Z_p-local systems. Optimistically, one can turn this into an equivalence with appropriate modifications.
+										  </details>
 
-									<details>
-										<summary>
-									  <b>A p-adic Riemann-Hilbert functor for Zariski-constructible sheaves (In progress)</b>
-										</summary>
-										<br>
-									  </details>
-									<br>
+										<details>
+											<summary>
+										  <b>A p-adic Riemann-Hilbert functor for Zariski-constructible sheaves (In progress)</b>
+											</summary>
+										  </details>
 
-								</section>
+									</section>
 
 									<section>
 										<header id="TALKS" class="major">
@@ -172,13 +184,14 @@
 										<p> These are some rough notes I wrote for seminar talks.
 										</p>
 
-										<ul class="talk-list">
-											<li><strong>The Klein quartic</strong> <a href="https://dpentland.github.io/files/Klein_quartic.pdf">[pdf]</a></li>
-											<li><strong>Derived prismatic cohomology</strong> <a href="https://dpentland.github.io/files/Derivedprismatic.pdf">[pdf]</a></li>
-											<li><strong>F-gauges and crystalline Galois representations</strong> <a href="https://dpentland.github.io/files/F_gauge.pdf">[pdf]</a></li>
-											<li><strong>The Fargues-Fontaine curve</strong> <a href="https://dpentland.github.io/files/farguesfontaine.pdf">[pdf]</a></li>
-											<li><strong>Proetale cohomology</strong> <a href="https://dpentland.github.io/files/proet.pdf">[pdf]</a></li>
-											<li><strong>Rigid flat connections and p-curvature</strong> <a href="https://dpentland.github.io/files/Non_abelian_Hodge.pdf">[pdf]</a></li>
+											<ul class="talk-list">
+												<li><strong>The Klein quartic</strong> <a href="https://dpentland.github.io/files/Klein_quartic.pdf">[pdf]</a></li>
+												<li><strong>Derived prismatic cohomology</strong> <a href="https://dpentland.github.io/files/Derivedprismatic.pdf">[pdf]</a></li>
+												<li><strong>F-gauges and crystalline Galois representations</strong> <a href="https://dpentland.github.io/files/F_gauge.pdf">[pdf]</a></li>
+												<li><strong>The Fargues-Fontaine curve</strong> <a href="https://dpentland.github.io/files/farguesfontaine.pdf">[pdf]</a></li>
+												<li><strong>The arc topology</strong> <a href="https://dpentland.github.io/files/arc.pdf">[pdf]</a></li>
+												<li><strong>Proetale cohomology</strong> <a href="https://dpentland.github.io/files/proet.pdf">[pdf]</a></li>
+												<li><strong>Rigid flat connections and p-curvature</strong> <a href="https://dpentland.github.io/files/Non_abelian_Hodge.pdf">[pdf]</a></li>
 											<li><strong>The Beilinson fiber square</strong> <a href="https://dpentland.github.io/files/beilinson_fiber.pdf">[pdf]</a></li>
 											<li><strong>Nearby cycles</strong> <a href="https://dpentland.github.io/files/Nearby_Cycles.pdf">[pdf]</a></li>
 											<li><strong>Shtukas</strong> <a href="https://dpentland.github.io/files/shtuka.pdf">[pdf]</a></li>
@@ -194,13 +207,6 @@
 						</div>
 					</div>
 			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
