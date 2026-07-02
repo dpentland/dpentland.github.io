@@ -26,16 +26,29 @@
 			<meta name="twitter:description" content="Dylan Pentland is a Harvard mathematics PhD student working in p-adic Hodge theory. Publications, preprints, talk notes, and CV." />
 			<meta name="twitter:image" content="https://dpentland.github.io/dylan.jpeg" />
 			<meta name="twitter:image:alt" content="Portrait of Dylan Pentland" />
-			<link rel="stylesheet" href="assets/css/main.css" />
+			<link rel="stylesheet" href="assets/css/main.css?v=20260701e" />
 			<!-- Google tag (gtag.js) -->
 			<script async src="https://www.googletagmanager.com/gtag/js?id=G-V9JN48RKQC"></script>
 			<script>
-			window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
 
-			gtag('config', 'G-V9JN48RKQC');
+				gtag('config', 'G-V9JN48RKQC');
 			</script>
+			<script>
+				window.MathJax = {
+					tex: {
+						inlineMath: [['\\(', '\\)']],
+						displayMath: [['\\[', '\\]']],
+						processEscapes: true
+					},
+					options: {
+						skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+					}
+				};
+			</script>
+			<script async id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 			<script type="application/ld+json">
 			{
 			  "@context": "https://schema.org",
@@ -82,8 +95,7 @@
 						<div class="inner">
 
 								<!-- Header -->
-									<header id="header">
-									</header>
+									<header id="header" aria-hidden="true"></header>
 
 								<!-- Banner -->
 									<section id="banner">
@@ -113,26 +125,26 @@
 										  <b>Syntomification and crystalline local systems </b>
 										  <a href="files/syntomification.pdf"> [pdf]</a><a href="https://arxiv.org/abs/2510.16961"> [arXiv]</a>
 											</summary>
-											I show that the category of crystalline Z_p-local systems is equivalent to a category of reflexive F-gauges, which resolves a conjecture of Bhatt. Prior to this, the question was partially answered by Guo-Li, who gave a way to lift analytic prismatic F-crystals to F-gauges. One can define a canonical t-structure on perfect complexes on the syntomification for smooth X, and characterize the output of Guo-Li's construction as the reflexive objects in the heart of this t-structure. Rationally this implies Coh(X^Syn)[1/p] is equivalent to crystalline Qp-local systems, and we use this integral result to produce a derived variant of this result. Namely, we show that Perf(X^{Syn})[1/p] is equivalent to a category of admissible filtered F-isocrystals -- morally one can think of this as a derived category of crystalline local systems, although this is generally not the case unless X=O_K. The integral underived result allows us to show essential surjectivity easily, while the harder component of full faithfulness comes from a variant of the Beilinson fiber square with coefficients for smooth proper formal schemes over O_K.
+											I show that the category of crystalline \(\mathrm{Z}_p\)-local systems is equivalent to a category of reflexive \(F\)-gauges, which resolves a conjecture of Bhatt. Prior to this, the question was partially answered by Guo-Li, who gave a way to lift analytic prismatic \(F\)-crystals to \(F\)-gauges. One can define a canonical \(t\)-structure on perfect complexes on the syntomification for smooth \(\mathrm{X}\), and characterize the output of Guo-Li's construction as the reflexive objects in the heart of this \(t\)-structure. Rationally this implies \(\mathsf{Coh}(\mathrm{X}^{\mathrm{Syn}})[1/p]\) is equivalent to crystalline \(\mathrm{Q}_p\)-local systems, and we use this integral result to produce a derived variant of this result. Namely, we show that \(\mathsf{Perf}(\mathrm{X}^{\mathrm{Syn}})[1/p]\) is equivalent to a category of admissible filtered \(F\)-isocrystals -- morally one can think of this as a derived category of crystalline local systems, although this is generally not the case unless \(\mathrm{X}=\mathcal{O}_K\). The integral underived result allows us to show essential surjectivity easily, while the harder component of full faithfulness comes from a variant of the Beilinson fiber square with coefficients for smooth proper formal schemes over \(\mathcal{O}_K\).
 										  </details>
 
 										<details>
 											<summary>
 										  <b>Appendix 2</b>
-										  to <a href="https://sites.google.com/view/t-watanabe/">Takumi Watanabe</a>'s <i>A remark on an integral structure of the imperfect coefficient ring of (&varphi;,&Gamma;)-modules</i>.
+										  to <a href="https://sites.google.com/view/t-watanabe/">Takumi Watanabe</a>'s <i>A remark on an integral structure of the imperfect coefficient ring of \((\varphi,\Gamma)\)-modules</i>.
 										  <a href="https://arxiv.org/abs/2604.17559">[arXiv]</a>
 											</summary>
-											This appendix proves that for certain ramified extensions, there is no Frobenius-stable subring of Fontaine's imperfect coefficient ring reducing to the expected integral coefficient ring.
+											This appendix proves that for \(K=\mathbb{Q}_p(p^{1/e})\) with \(e>1\) and \(\gcd(e,p(p-1))=1\), no Frobenius-stable subring \(R\subset \mathbb{A}_K\) has \(R/p\simeq \mathbb{E}_K^+\subset \mathbb{E}_K=\mathbb{A}_K/p\).
 										  </details>
 
 										<details>
 											<summary>
-										  <b>Extensions of mod p representations of local division algebras</b>
+										  <b>Extensions of mod \(p\) representations of local division algebras</b>
 											with <a href="https://sites.google.com/berkeley.edu/keisling">Drew Keisling.</a>
 											<a href="https://jtnb.centre-mersenne.org/item/10.5802/jtnb.1273.pdf">
 											[JNTB]</a><a href="https://arxiv.org/pdf/2110.00705"> [arXiv]</a>
 											</summary>
-											Determines the extension groups of smooth irreducible representations of a division algebra D over a non-Archimedean local field.
+											Determines the extension groups of smooth irreducible representations of a division algebra \(D\) over a non-Archimedean local field.
 										  </details>
 
 										<details>
@@ -161,56 +173,35 @@
 										   <a href="https://www.combinatorics.org/ojs/index.php/eljc/article/view/V27i2p58">
 												[EJC]</a><a href="https://arxiv.org/abs/1801.00188"> [arXiv]</a>
 											</summary>
-											Resolves and extends a conjecture of Prof. Richard Stanley on periods of coefficients in q-binomial coefficients modulo N.
+											Resolves and extends a conjecture of Prof. Richard Stanley on periods of coefficients in \(q\)-binomial coefficients modulo \(N\).
 											</details>
 											
 										</section>
 
 									<section>
-										<header class="major">
-											<h2 id="PROBLEMS">Problems I am thinking about</h2>
-										</header>
-
-										<details>
-											<summary>
-										  <b>Torsion crystalline representations (In progress)</b>
-											</summary>
-											A smaller follow-up project to ``Syntomification and crystalline local systems": I aim to integrally characterize the essential image of T_et on Perf(X^{Syn}) as a category of crystalline objects in D^b_lisse(X_eta,Z_p) roughly built out of torsion crystalline local systems and crystalline Z_p-local systems. Optimistically, one can turn this into an equivalence with appropriate modifications.
-										  </details>
-
-										<details>
-											<summary>
-										  <b>A p-adic Riemann-Hilbert functor for sheaves constructible with respect to SNC stratifications (In progress)</b>
-											</summary>
-										  </details>
-
-									</section>
-
-									<section>
 										<header id="TALKS" class="major">
 											<h2>Talk notes</h2>
 										</header>
-										<p> These are some rough notes I wrote for seminar talks.
-										</p>
+										<p>These are some rough notes I wrote for seminar talks.</p>
 
-											<ul class="talk-list">
-												<li><strong>The Klein quartic</strong> <a href="https://dpentland.github.io/files/Klein_quartic.pdf">[pdf]</a></li>
-												<li><strong>Derived prismatic cohomology</strong> <a href="https://dpentland.github.io/files/Derivedprismatic.pdf">[pdf]</a></li>
-												<li><strong>F-gauges and crystalline Galois representations</strong> <a href="https://dpentland.github.io/files/F_gauge.pdf">[pdf]</a></li>
-												<li><strong>The Fargues-Fontaine curve</strong> <a href="https://dpentland.github.io/files/farguesfontaine.pdf">[pdf]</a></li>
-												<li><strong>The arc topology</strong> <a href="https://dpentland.github.io/files/arc.pdf">[pdf]</a></li>
-												<li><strong>The Emerton-Kisin correspondence</strong> <a href="https://dpentland.github.io/files/EK.pdf">[pdf]</a></li>
-												<li><strong>Proetale cohomology</strong> <a href="https://dpentland.github.io/files/proet.pdf">[pdf]</a></li>
-												<li><strong>Rigid flat connections and p-curvature</strong> <a href="https://dpentland.github.io/files/Non_abelian_Hodge.pdf">[pdf]</a></li>
-											<li><strong>The Beilinson fiber square</strong> <a href="https://dpentland.github.io/files/beilinson_fiber.pdf">[pdf]</a></li>
-											<li><strong>Nearby cycles</strong> <a href="https://dpentland.github.io/files/Nearby_Cycles.pdf">[pdf]</a></li>
-											<li><strong>Shtukas</strong> <a href="https://dpentland.github.io/files/shtuka.pdf">[pdf]</a></li>
-											<li><strong>Honda-Tate theory</strong> <a href="https://dpentland.github.io/files/hondatate.pdf">[pdf]</a></li>
-											<li><strong>Twistor P1</strong> <a href="https://dpentland.github.io/files/twistor.pdf">[pdf]</a></li>
-											<li><strong>Almost purity</strong> <a href="https://dpentland.github.io/files/almost_purity.pdf">[pdf]</a></li>
+										<ul class="talk-list">
+											<li><strong>The Klein quartic</strong> <a href="files/Klein_quartic.pdf">[pdf]</a></li>
+											<li><strong>Derived prismatic cohomology</strong> <a href="files/Derivedprismatic.pdf">[pdf]</a></li>
+											<li><strong>\(F\)-gauges and crystalline Galois representations</strong> <a href="files/F_gauge.pdf">[pdf]</a></li>
+											<li><strong>The Fargues-Fontaine curve</strong> <a href="files/farguesfontaine.pdf">[pdf]</a></li>
+											<li><strong>The arc topology</strong> <a href="files/arc.pdf">[pdf]</a></li>
+											<li><strong>The Emerton-Kisin correspondence</strong> <a href="files/EK.pdf">[pdf]</a></li>
+											<li><strong>Proetale cohomology</strong> <a href="files/proet.pdf">[pdf]</a></li>
+											<li><strong>Rigid flat connections and \(p\)-curvature</strong> <a href="files/Non_abelian_Hodge.pdf">[pdf]</a></li>
+											<li><strong>The Beilinson fiber square</strong> <a href="files/beilinson_fiber.pdf">[pdf]</a></li>
+											<li><strong>Nearby cycles</strong> <a href="files/Nearby_Cycles.pdf">[pdf]</a></li>
+											<li><strong>Shtukas</strong> <a href="files/shtuka.pdf">[pdf]</a></li>
+											<li><strong>Honda-Tate theory</strong> <a href="files/hondatate.pdf">[pdf]</a></li>
+											<li><strong>Twistor \(\mathbf{P}^1\)</strong> <a href="files/twistor.pdf">[pdf]</a></li>
+											<li><strong>Almost purity</strong> <a href="files/almost_purity.pdf">[pdf]</a></li>
 										</ul>
 
-										<p>I also taught a course on Bass-Serre theory. The notes are <a href="https://dpentland.github.io/files/Summer_Tutorial_Final.pdf">here</a>.</p>
+										<p>I also taught a course on Bass-Serre theory. The notes are <a href="files/Summer_Tutorial_Final.pdf">here</a>.</p>
 
 									</section>
 								<p class="copyright">&copy; Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
